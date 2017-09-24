@@ -48,6 +48,14 @@
       <Filter>app</Filter>
     </ClInclude>
     <ClInclude Include="app_wrapper\app_resource.h" />
+    <ClInclude Include="Voice.h" />
+    <ClInclude Include="onsetsds.h" />
+    <ClInclude Include="onsetsdshelpers.h" />
+    <ClInclude Include="..\..\..\Documents\pitch-detection-master\include\pitch_detection.hpp" />
+    <ClInclude Include="..\..\..\Documents\pitch-detection-master\src\constants.hpp" />
+    <ClInclude Include="..\..\..\Documents\pitch-detection-master\src\parabolic_interpolation.hpp" />
+    <ClInclude Include="..\..\..\Documents\pitch-detection-master\src\xcorr.hpp" />
+    <ClInclude Include="smbPitchShift.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\WDL\rtaudiomidi\RtAudio.cpp">
@@ -75,6 +83,13 @@
     <ClCompile Include="..\..\WDL\IPlug\IPlugStandalone.cpp">
       <Filter>app</Filter>
     </ClCompile>
+    <ClCompile Include="voice.cpp" />
+    <ClCompile Include="onsetsds.c" />
+    <ClCompile Include="onsetsdshelpers.c" />
+    <ClCompile Include="..\..\..\Documents\pitch-detection-master\src\autocorrelation.cpp" />
+    <ClCompile Include="..\..\..\Documents\pitch-detection-master\src\mpm.cpp" />
+    <ClCompile Include="..\..\..\Documents\pitch-detection-master\src\yin.cpp" />
+    <ClCompile Include="smbPitchShift.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Vox.rc" />

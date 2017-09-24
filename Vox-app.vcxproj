@@ -147,13 +147,14 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>$(APP_DEFS);$(DEBUG_DEFS);%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(APP_INCLUDES);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(APP_INCLUDES);%(AdditionalIncludeDirectories);C:/Users/charl/Documents/pitch-detection-master/include;C:/Program Files (x86)/Mega-Nerd/libsndfile/include;C:/Users/charl/Documents/fftw;</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(APP_LIBS);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(APP_LIBS);%(AdditionalDependencies);C:/Program Files (x86)/Mega-Nerd/libsndfile/lib/libsndfile-1.lib;C:/Users/charl/Documents/fftw/libfftw3-3.lib;C:/Users/charl/Documents/fftw/libfftw3f-3.lib;C:/Users/charl/Documents/fftw/libfftw3l-3.lib;</AdditionalDependencies>
       <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Mega-Nerd/libsndfile/lib;C:/Users/charl/Documents/fftw;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>SA_API</PreprocessorDefinitions>
@@ -164,14 +165,14 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>$(APP_DEFS);$(DEBUG_DEFS);%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(APP_INCLUDES);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(APP_INCLUDES);%(AdditionalIncludeDirectories);C:/Users/charl/Documents/pitch-detection-master/include;C:/Program Files (x86)/Mega-Nerd/libsndfile/include;C:/Users/charl/Documents/fftw;</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(APP_LIBS);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(APP_LIBS);%(AdditionalDependencies);C:/Program Files (x86)/Mega-Nerd/libsndfile/lib/libsndfile-1.lib;C:/Users/charl/Documents/fftw/libfftw3-3.lib;C:/Users/charl/Documents/fftw/libfftw3f-3.lib;C:/Users/charl/Documents/fftw/libfftw3l-3.lib;</AdditionalDependencies>
       <SubSystem>Windows</SubSystem>
-      <AdditionalLibraryDirectories>$(x64_LIB_PATHS);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Mega-Nerd/libsndfile/lib;C:/Users/charl/Documents/fftw;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>SA_API</PreprocessorDefinitions>
@@ -184,7 +185,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>$(APP_DEFS);$(RELEASE_DEFS);%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(APP_INCLUDES);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(APP_INCLUDES);%(AdditionalIncludeDirectories);C:/Users/charl/Documents/pitch-detection-master/include;C:/Program Files (x86)/Mega-Nerd/libsndfile/include;C:/Users/charl/Documents/fftw;</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
     </ClCompile>
@@ -192,8 +193,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>$(APP_LIBS);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(APP_LIBS);%(AdditionalDependencies);C:/Program Files (x86)/Mega-Nerd/libsndfile/lib/libsndfile-1.lib;C:/Users/charl/Documents/fftw/libfftw3-3.lib;C:/Users/charl/Documents/fftw/libfftw3f-3.lib;C:/Users/charl/Documents/fftw/libfftw3l-3.lib;</AdditionalDependencies>
       <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Mega-Nerd/libsndfile/lib;C:/Users/charl/Documents/fftw;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>SA_API</PreprocessorDefinitions>
@@ -206,7 +208,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>$(APP_DEFS);$(RELEASE_DEFS);%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(APP_INCLUDES);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(APP_INCLUDES);%(AdditionalIncludeDirectories);C:/Users/charl/Documents/pitch-detection-master/include;C:/Program Files (x86)/Mega-Nerd/libsndfile/include;C:/Users/charl/Documents/fftw;</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
     </ClCompile>
@@ -214,9 +216,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>$(APP_LIBS);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(APP_LIBS);%(AdditionalDependencies);C:/Program Files (x86)/Mega-Nerd/libsndfile/lib/libsndfile-1.lib;C:/Users/charl/Documents/fftw/libfftw3-3.lib;C:/Users/charl/Documents/fftw/libfftw3f-3.lib;C:/Users/charl/Documents/fftw/libfftw3l-3.lib;</AdditionalDependencies>
       <SubSystem>Windows</SubSystem>
-      <AdditionalLibraryDirectories>$(x64_LIB_PATHS);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Mega-Nerd/libsndfile/lib;C:/Users/charl/Documents/fftw;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>SA_API</PreprocessorDefinitions>
@@ -229,16 +231,16 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>$(APP_DEFS);$(TRACER_DEFS);%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(APP_INCLUDES);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(APP_INCLUDES);%(AdditionalIncludeDirectories);C:/Users/charl/Documents/pitch-detection-master/include;C:/Program Files (x86)/Mega-Nerd/libsndfile/include;C:/Users/charl/Documents/fftw;</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>$(APP_LIBS);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(APP_LIBS);%(AdditionalDependencies);C:/Program Files (x86)/Mega-Nerd/libsndfile/lib/libsndfile-1.lib;C:/Users/charl/Documents/fftw/libfftw3-3.lib;C:/Users/charl/Documents/fftw/libfftw3f-3.lib;C:/Users/charl/Documents/fftw/libfftw3l-3.lib;</AdditionalDependencies>
       <SubSystem>Windows</SubSystem>
-      <AdditionalLibraryDirectories>$(WDL_PATH)\lice\build-win\$(Platform)\Release\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Mega-Nerd/libsndfile/lib;C:/Users/charl/Documents/fftw;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>SA_API</PreprocessorDefinitions>
@@ -251,22 +253,26 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>$(APP_DEFS);$(TRACER_DEFS);%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(APP_INCLUDES);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(APP_INCLUDES);%(AdditionalIncludeDirectories);C:/Users/charl/Documents/pitch-detection-master/include;C:/Program Files (x86)/Mega-Nerd/libsndfile/include;C:/Users/charl/Documents/fftw;</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>$(APP_LIBS);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(APP_LIBS);%(AdditionalDependencies);C:/Program Files (x86)/Mega-Nerd/libsndfile/lib/libsndfile-1.lib;C:/Users/charl/Documents/fftw/libfftw3-3.lib;C:/Users/charl/Documents/fftw/libfftw3f-3.lib;C:/Users/charl/Documents/fftw/libfftw3l-3.lib;</AdditionalDependencies>
       <SubSystem>Windows</SubSystem>
-      <AdditionalLibraryDirectories>$(x64_LIB_PATHS);$(WDL_PATH)\lice\build-win\$(Platform)\Release\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:/Program Files (x86)/Mega-Nerd/libsndfile/lib;C:/Users/charl/Documents/fftw;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ResourceCompile>
       <PreprocessorDefinitions>SA_API</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\Documents\pitch-detection-master\include\pitch_detection.hpp" />
+    <ClInclude Include="..\..\..\Documents\pitch-detection-master\src\constants.hpp" />
+    <ClInclude Include="..\..\..\Documents\pitch-detection-master\src\parabolic_interpolation.hpp" />
+    <ClInclude Include="..\..\..\Documents\pitch-detection-master\src\xcorr.hpp" />
     <ClInclude Include="..\..\ASIO_SDK\asio.h" />
     <ClInclude Include="..\..\ASIO_SDK\asiodrivers.h" />
     <ClInclude Include="..\..\ASIO_SDK\asiolist.h" />
@@ -279,10 +285,17 @@
     <ClInclude Include="..\..\WDL\rtaudiomidi\RtMidi.h" />
     <ClInclude Include="app_wrapper\app_main.h" />
     <ClInclude Include="app_wrapper\app_resource.h" />
+    <ClInclude Include="onsetsds.h" />
+    <ClInclude Include="onsetsdshelpers.h" />
+    <ClInclude Include="smbPitchShift.h" />
+    <ClInclude Include="Voice.h" />
     <ClInclude Include="Vox.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\Documents\pitch-detection-master\src\autocorrelation.cpp" />
+    <ClCompile Include="..\..\..\Documents\pitch-detection-master\src\mpm.cpp" />
+    <ClCompile Include="..\..\..\Documents\pitch-detection-master\src\yin.cpp" />
     <ClCompile Include="..\..\ASIO_SDK\asio.cpp" />
     <ClCompile Include="..\..\ASIO_SDK\asiodrivers.cpp" />
     <ClCompile Include="..\..\ASIO_SDK\asiolist.cpp" />
@@ -291,6 +304,10 @@
     <ClCompile Include="..\..\WDL\rtaudiomidi\RtMidi.cpp" />
     <ClCompile Include="app_wrapper\app_dialog.cpp" />
     <ClCompile Include="app_wrapper\app_main.cpp" />
+    <ClCompile Include="onsetsds.c" />
+    <ClCompile Include="onsetsdshelpers.c" />
+    <ClCompile Include="smbPitchShift.cpp" />
+    <ClCompile Include="voice.cpp" />
     <ClCompile Include="Vox.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -5,6 +5,13 @@
     <ClCompile Include="..\..\WDL\IPlug\IPlugVST.cpp">
       <Filter>vst2</Filter>
     </ClCompile>
+    <ClCompile Include="onsetsds.c" />
+    <ClCompile Include="onsetsdshelpers.c" />
+    <ClCompile Include="voice.cpp" />
+    <ClCompile Include="..\..\..\Documents\pitch-detection-master\src\autocorrelation.cpp" />
+    <ClCompile Include="..\..\..\Documents\pitch-detection-master\src\mpm.cpp" />
+    <ClCompile Include="..\..\..\Documents\pitch-detection-master\src\yin.cpp" />
+    <ClCompile Include="smbPitchShift.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vox.h" />
@@ -12,6 +19,14 @@
     <ClInclude Include="..\..\WDL\IPlug\IPlugVST.h">
       <Filter>vst2</Filter>
     </ClInclude>
+    <ClInclude Include="onsetsds.h" />
+    <ClInclude Include="onsetsdshelpers.h" />
+    <ClInclude Include="Voice.h" />
+    <ClInclude Include="..\..\..\Documents\pitch-detection-master\src\constants.hpp" />
+    <ClInclude Include="..\..\..\Documents\pitch-detection-master\src\parabolic_interpolation.hpp" />
+    <ClInclude Include="..\..\..\Documents\pitch-detection-master\include\pitch_detection.hpp" />
+    <ClInclude Include="..\..\..\Documents\pitch-detection-master\src\xcorr.hpp" />
+    <ClInclude Include="smbPitchShift.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Vox.rc" />
